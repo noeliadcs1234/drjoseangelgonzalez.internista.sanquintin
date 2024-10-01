@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+	<html lang="mx" region="mx">
+	<head>
+	<meta charset="UTF-8" />
+	<title>DocPlanner.me</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"/>
+	<link rel="stylesheet" href="/css/app.css?v=99884d47dce5acf9dfb3acc99ffcd081"/>
+
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.11.0/css/bootstrap-tour.css"/>
+
+	<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+
+	<link rel="icon" type="image/x-icon" href="//platform.docplanner.com/img/general/icons/favicon.png" />
+
+	</head>
+	<body class="">
+	
+	
+	<div class="container-fluid">
+	<header class="row">
+	<nav class="col-md-12 nav">
+	
+	<ul class="list-unstyled">
+	
+	<li class="hidden-xs">
+	<a href="https://www.doctoralia.com.mx/jose-angel-gonzalez-sanchez/internista/san-quintin?utm_source=website&amp;utm_medium=website&amp;utm_campaign=website" class="back-link btn-link">
+
+	<i class="icon icon__back">
+	<img src="/img/icons/back.svg" width="17"/>
+
+	</i>
+	Volver
+	</a>
+	</li>
+	
+	<li id="tour-step-1">
+	
+	<button
+	type="button"
+	class="btn-link template-switch-btn"
+	data-id="template-switch-btn"
+	data-toggle="popover"
+	title="Elegir una plantilla&hellip;"
+	data-placement="bottom"
+	data-template='<div class="popover template-switcher" role="tooltip" style="max-width: none">
+	<div class="arrow"></div>
+	<h3 class="popover-title"></h3>
+	<div class="template-switcher__content clearfix">
+	
+	<div id="carousel-example-generic" class="carousel first slide" data-ride="carousel" data-interval="false" data-wrap="false">
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner" role="listbox">
+	<div class="item active">
+	
+	
+	<div class="thumbnail " data-template-id="10" data-template-name="Plantilla nº. 10" data-default-theme="blue">
+	<img src="/img/previews/template-10-preview.jpg?v=99884d47dce5acf9dfb3acc99ffcd081" style="" alt=""/>
+	<span class="name">Plantilla nº. 10</span>
+	</div>
+	
+	
+	<div class="thumbnail " data-template-id="11" data-template-name="Plantilla nº. 11" data-default-theme="blue">
+	<img src="/img/previews/template-11-preview.jpg?v=99884d47dce5acf9dfb3acc99ffcd081" style="" alt=""/>
+	<span class="name">Plantilla nº. 11</span>
+	</div>
+	
+	
+	<div class="thumbnail " data-template-id="12" data-template-name="Plantilla nº. 12" data-default-theme="beige_blue">
+	<img src="/img/previews/template-12-preview.jpg?v=99884d47dce5acf9dfb3acc99ffcd081" style="" alt=""/>
+	<span class="name">Plantilla nº. 12</span>
+	</div>
+	
+	
+	<div class="thumbnail " data-template-id="13" data-template-name="Plantilla nº. 13" data-default-theme="blue">
+	<img src="/img/previews/template-13-preview.jpg?v=99884d47dce5acf9dfb3acc99ffcd081" style="" alt=""/>
+	<span class="name">Plantilla nº. 13</span>
+	</div>
+	
+	</div><div class="item">
+	
+	<div class="thumbnail active" data-template-id="14" data-template-name="Plantilla nº. 14" data-default-theme="blue_beige">
+	<img src="/img/previews/template-14-preview.jpg?v=99884d47dce5acf9dfb3acc99ffcd081" style="" alt=""/>
+	<span class="name">Plantilla nº. 14</span>
+	</div>
+	
+	
+	<div class="thumbnail " data-template-id="15" data-template-name="Plantilla nº. 15" data-default-theme="blue">
+	<img src="/img/previews/template-15-preview.jpg?v=99884d47dce5acf9dfb3acc99ffcd081" style="" alt=""/>
+	<span class="name">Plantilla nº. 15</span>
+	</div>
+	
+	
+	<div class="thumbnail " data-template-id="16" data-template-name="Plantilla nº. 16" data-default-theme="blue">
+	<img src="/img/previews/template-16-preview.jpg?v=99884d47dce5acf9dfb3acc99ffcd081" style="" alt=""/>
+	<span class="name">Plantilla nº. 16</span>
+	</div>
+	
+	
+	<div class="thumbnail " data-template-id="17" data-template-name="Plantilla nº. 17" data-default-theme="blue">
+	<img src="/img/previews/template-17-preview.jpg?v=99884d47dce5acf9dfb3acc99ffcd081" style="" alt=""/>
+	<span class="name">Plantilla nº. 17</span>
+	</div>
+	
+	
+	</div>
+	</div>
+	
+	<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	<i class="icon icon__left-arrow btn btn-default">
+	<img src="/img/icons/left-arrow.svg" width="8">
+	</i>
+	</a>
+	
+	<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	<i class="icon icon__right-arrow btn btn-default">
+	<img src="/img/icons/right-arrow.svg" width="8">
+	</i>
+	</a>
+	</div>
+	</div>
+	</div>
+	'
+	data-selected-template-id="14"
+	data-theme-repo-10='
+	<div class="popover theme-switcher " role="tooltip" style="max-width: none">
+	<div class="arrow"></div>
+	<h3 class="popover-title"></h3>
+	<div class="theme-switcher__content clearfix">
+	<ul class="list-unstyled clearfix">
+	<li data-theme-id="blue" class="active">
+	<i class="circle" style="background: #34a1e0"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="teal" >
+	<i class="circle" style="background: #58a0a8"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="green" >
+	<i class="circle" style="background: #6d924d"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="mint" >
+	<i class="circle" style="background: #4f9e8b"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="orange" >
+	<i class="circle" style="background: #d56f3d"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="purple" >
+	<i class="circle" style="background: #8c6bab"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="red" >
+	<i class="circle" style="background: #c95252"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="brown" >
+	<i class="circle" style="background: #9e7563"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	</ul>
+	</div>
+	</div>'
+	data-theme-repo-colors-10='[&quot;#34a1e0&quot;]'
+	data-theme-repo-11='
+	<div class="popover theme-switcher " role="tooltip" style="max-width: none">
+	<div class="arrow"></div>
+	<h3 class="popover-title"></h3>
+	<div class="theme-switcher__content clearfix">
+	<ul class="list-unstyled clearfix">
+	<li data-theme-id="blue" class="active">
+	<i class="circle" style="background: #1d98df"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="teal" >
+	<i class="circle" style="background: #3e868e"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="green" >
+	<i class="circle" style="background: #4eae43"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="mint" >
+	<i class="circle" style="background: #38a280"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="yellow" >
+	<i class="circle" style="background: #e2bc23"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="orange" >
+	<i class="circle" style="background: #e77d36"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="purple" >
+	<i class="circle" style="background: #9a56c2"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="red" >
+	<i class="circle" style="background: #d53d3d"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="brown" >
+	<i class="circle" style="background: #5d4c41"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	</ul>
+	</div>
+	</div>'
+	data-theme-repo-colors-11='[&quot;#1d98df&quot;]'
+	data-theme-repo-12='
+	<div class="popover theme-switcher double" role="tooltip" style="max-width: none">
+	<div class="arrow"></div>
+	<h3 class="popover-title"></h3>
+	<div class="theme-switcher__content clearfix">
+	<ul class="list-unstyled clearfix">
+	<li data-theme-id="beige_blue" class="active">
+	<i class="circle" style="background: #d3b57c"></i>
+	<i class="circle" style="background: #263e51"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="blue" >
+	<i class="circle" style="background: #39aedf"></i>
+	<i class="circle" style="background: #2a3345"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="blue_gray" >
+	<i class="circle" style="background: #54a2de"></i>
+	<i class="circle" style="background: #556772"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="brown" >
+	<i class="circle" style="background: #d3b57c"></i>
+	<i class="circle" style="background: #3d3b37"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="green" >
+	<i class="circle" style="background: #a7b859"></i>
+	<i class="circle" style="background: #35382d"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="mint" >
+	<i class="circle" style="background: #7eb39c"></i>
+	<i class="circle" style="background: #3e584c"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="orange_blue" >
+	<i class="circle" style="background: #ec765f"></i>
+	<i class="circle" style="background: #30446f"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="orange_brown" >
+	<i class="circle" style="background: #e3844a"></i>
+	<i class="circle" style="background: #3d3b37"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="purple" >
+	<i class="circle" style="background: #ad79c5"></i>
+	<i class="circle" style="background: #453d54"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="red" >
+	<i class="circle" style="background: #d55b5b"></i>
+	<i class="circle" style="background: #4b4f52"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="teal" >
+	<i class="circle" style="background: #60b9c6"></i>
+	<i class="circle" style="background: #37484c"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	</ul>
+	</div>
+	</div>'
+	data-theme-repo-colors-12='[&quot;#d3b57c&quot;,&quot;#263e51&quot;]'
+	data-theme-repo-13='
+	<div class="popover theme-switcher " role="tooltip" style="max-width: none">
+	<div class="arrow"></div>
+	<h3 class="popover-title"></h3>
+	<div class="theme-switcher__content clearfix">
+	<ul class="list-unstyled clearfix">
+	<li data-theme-id="blue" class="active">
+	<i class="circle" style="background: #34a1e0"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="brown" >
+	<i class="circle" style="background: #9e7563"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="green" >
+	<i class="circle" style="background: #6d924d"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="mint" >
+	<i class="circle" style="background: #4f9e8b"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="orange" >
+	<i class="circle" style="background: #d56f3d"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="purple" >
+	<i class="circle" style="background: #8c6bab"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="red" >
+	<i class="circle" style="background: #c95252"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="teal" >
+	<i class="circle" style="background: #58a0a8"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	</ul>
+	</div>
+	</div>'
+	data-theme-repo-colors-13='[&quot;#34a1e0&quot;]'
+	data-theme-repo-14='
+	<div class="popover theme-switcher double" role="tooltip" style="max-width: none">
+	<div class="arrow"></div>
+	<h3 class="popover-title"></h3>
+	<div class="theme-switcher__content clearfix">
+	<ul class="list-unstyled clearfix">
+	<li data-theme-id="blue_beige" class="active">
+	<i class="circle" style="background: #43aae6"></i>
+	<i class="circle" style="background: #cab882"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="blue_orange" >
+	<i class="circle" style="background: #43aae6"></i>
+	<i class="circle" style="background: #f07a47"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="brown_beige" >
+	<i class="circle" style="background: #604b40"></i>
+	<i class="circle" style="background: #cab882"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="green_orange" >
+	<i class="circle" style="background: #339ea2"></i>
+	<i class="circle" style="background: #e46f40"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="mint" >
+	<i class="circle" style="background: #62b28a"></i>
+	<i class="circle" style="background: #507b66"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="orange_beige" >
+	<i class="circle" style="background: #f07a47"></i>
+	<i class="circle" style="background: #cab882"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="orange_blue" >
+	<i class="circle" style="background: #f07a47"></i>
+	<i class="circle" style="background: #43aae6"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="purple_beige" >
+	<i class="circle" style="background: #5f4d94"></i>
+	<i class="circle" style="background: #cab882"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="red_beige" >
+	<i class="circle" style="background: #a94144"></i>
+	<i class="circle" style="background: #cab882"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="teal" >
+	<i class="circle" style="background: #339ea2"></i>
+	<i class="circle" style="background: #7b9798"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	</ul>
+	</div>
+	</div>'
+	data-theme-repo-colors-14='[&quot;#43aae6&quot;,&quot;#cab882&quot;]'
+	data-theme-repo-15='
+	<div class="popover theme-switcher " role="tooltip" style="max-width: none">
+	<div class="arrow"></div>
+	<h3 class="popover-title"></h3>
+	<div class="theme-switcher__content clearfix">
+	<ul class="list-unstyled clearfix">
+	<li data-theme-id="blue" class="active">
+	<i class="circle" style="background: #437bd6"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="teal" >
+	<i class="circle" style="background: #58a0a8"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="green" >
+	<i class="circle" style="background: #6d924d"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="mint" >
+	<i class="circle" style="background: #4f9e8b"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="orange" >
+	<i class="circle" style="background: #d56f3d"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="purple" >
+	<i class="circle" style="background: #8c6bab"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="pink" >
+	<i class="circle" style="background: #ca85ac"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="red" >
+	<i class="circle" style="background: #c95252"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="brown" >
+	<i class="circle" style="background: #9e7563"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="gold" >
+	<i class="circle" style="background: #ccb57d"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	</ul>
+	</div>
+	</div>'
+	data-theme-repo-colors-15='[&quot;#437bd6&quot;]'
+	data-theme-repo-16='
+	<div class="popover theme-switcher " role="tooltip" style="max-width: none">
+	<div class="arrow"></div>
+	<h3 class="popover-title"></h3>
+	<div class="theme-switcher__content clearfix">
+	<ul class="list-unstyled clearfix">
+	<li data-theme-id="blue" class="active">
+	<i class="circle" style="background: #437bd6"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="teal" >
+	<i class="circle" style="background: #58a0a8"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="green" >
+	<i class="circle" style="background: #6d924d"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="mint" >
+	<i class="circle" style="background: #4f9e8b"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="orange" >
+	<i class="circle" style="background: #d56f3d"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="purple" >
+	<i class="circle" style="background: #8c6bab"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="pink" >
+	<i class="circle" style="background: #ca85ac"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="red" >
+	<i class="circle" style="background: #c95252"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="brown" >
+	<i class="circle" style="background: #9e7563"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="gold" >
+	<i class="circle" style="background: #ccb57d"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	</ul>
+	</div>
+	</div>'
+	data-theme-repo-colors-16='[&quot;#437bd6&quot;]'
+	data-theme-repo-17='
+	<div class="popover theme-switcher " role="tooltip" style="max-width: none">
+	<div class="arrow"></div>
+	<h3 class="popover-title"></h3>
+	<div class="theme-switcher__content clearfix">
+	<ul class="list-unstyled clearfix">
+	<li data-theme-id="blue" class="active">
+	<i class="circle" style="background: #437bd6"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="teal" >
+	<i class="circle" style="background: #58a0a8"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="green" >
+	<i class="circle" style="background: #6d924d"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="mint" >
+	<i class="circle" style="background: #4f9e8b"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="orange" >
+	<i class="circle" style="background: #d56f3d"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="purple" >
+	<i class="circle" style="background: #8c6bab"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="pink" >
+	<i class="circle" style="background: #ca85ac"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="red" >
+	<i class="circle" style="background: #c95252"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="brown" >
+	<i class="circle" style="background: #9e7563"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	</ul>
+	</div>
+	</div>'
+	data-theme-repo-colors-17='[&quot;#437bd6&quot;]'
+	>
+	<strong>Plantilla:</strong>
+	<span data-id="selected-template">Plantilla nº. 14</span>
+	<i class="icon icon__caret">
+	<img src="/img/icons/caret.svg" width="9"/>
+
+	</i>
+	</button>
+	
+	<button
+	type="button"
+	class="btn-link theme-switch-btn"
+	data-id="theme-switch-btn"
+	data-toggle="popover"
+	title="Elegir color"
+	data-placement="bottom"
+	data-content=""
+	data-template='
+	<div class="popover theme-switcher double" role="tooltip" style="max-width: none">
+	<div class="arrow"></div>
+	<h3 class="popover-title"></h3>
+	<div class="theme-switcher__content clearfix">
+	<ul class="list-unstyled clearfix">
+	<li data-theme-id="blue_beige" class="active">
+	<i class="circle" style="background: #43aae6"></i>
+	<i class="circle" style="background: #cab882"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="blue_orange" >
+	<i class="circle" style="background: #43aae6"></i>
+	<i class="circle" style="background: #f07a47"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="brown_beige" >
+	<i class="circle" style="background: #604b40"></i>
+	<i class="circle" style="background: #cab882"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="green_orange" >
+	<i class="circle" style="background: #339ea2"></i>
+	<i class="circle" style="background: #e46f40"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="mint" >
+	<i class="circle" style="background: #62b28a"></i>
+	<i class="circle" style="background: #507b66"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="orange_beige" >
+	<i class="circle" style="background: #f07a47"></i>
+	<i class="circle" style="background: #cab882"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="orange_blue" >
+	<i class="circle" style="background: #f07a47"></i>
+	<i class="circle" style="background: #43aae6"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="purple_beige" >
+	<i class="circle" style="background: #5f4d94"></i>
+	<i class="circle" style="background: #cab882"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="red_beige" >
+	<i class="circle" style="background: #a94144"></i>
+	<i class="circle" style="background: #cab882"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	<li data-theme-id="teal" >
+	<i class="circle" style="background: #339ea2"></i>
+	<i class="circle" style="background: #7b9798"></i>
+	<img src="/img/icons/verified-check.png?v=99884d47dce5acf9dfb3acc99ffcd081" alt="" style="width:16px;height:12px" class="verified"/>
+	</li>
+	</ul>
+	</div>
+	</div>'
+	data-selected-theme-id="blue_beige">
+	<strong>Color:</strong>
+	<span data-id="selected-theme">
+	<i class="circle" style="background: #43aae6"></i>
+	<i class="circle" style="background: #cab882"></i>
+	</span>
+	<i class="icon icon__caret">
+	<img src="/img/icons/caret.svg" width="9"/>
+
+	</i>
+	</button>
+	</li>
+	
+	<li class="edit-btn hidden-xs" id="tour-step-2">
+	<a
+	href="https://doctoralia.com.mx/social-connect/mx_sso?_redirect=https://www.doctoralia.com.mx/edicion-de-perfil/jose-angel-gonzalez-sanchez?websitesEdition=true&amp;utm_source=website&amp;utm_medium=website&amp;utm_campaign=website"
+
+	class="btn btn-default btn-sm"
+	data-toggle="popover"
+	data-placement="bottom"
+	data-title="Editar"
+	data-content="Puedes editar la información relativa a tu sitio web en un perfil de doctoralia.com.mx"
+	data-trigger="hover"
+	>
+	Editar
+	</a>
+	</li>
+	
+	
+	<li class="hidden-xs">
+	<a
+	href="#"
+
+	class="faq-btn btn-link"
+	data-toggle="modal"
+	data-target="#faq-modal"
+	>
+	FAQ
+	<i class="icon icon__question">
+	<img src="/img/icons/question.svg" width="16"/>
+
+	</i>
+	</a>
+	</li>
+	
+	<li class="pull-right subscription-btn inactive-visibility" id="tour-step-3">
+	<a href="#" class="pull-right btn btn-success btn-lg" data-id="open-subscription-modal">
+	Siguiente
+	
+	<i class="icon icon__right-arrow-long">
+	<img src="/img/icons/right-arrow-long.svg" width="24"/>
+
+	</i>
+	</a>
+	</li>
+	<li class="pull-right hidden-xs hidden-s next-description no-border">
+	<span class="btn btn-link">
+	Haga clic en "Siguiente" para pasar a la selección de dominio
+	</span>
+	</li>
+	</ul>
+	</nav>
+	</header>
+	
+	<section class="row">
+	<div class="website-preview">
+	<p class="website-preview__headline">Vista previa</p>
+	<div>
+	<iframe src="/preview" data-id="preview-iframe"></iframe>
+
+	</div>
+	</div>
+	</section>
+	
+	<div class="modal fade subscription-modal" data-id="subscription-modal" tabindex="-1" role="dialog" data-step="info" >
+	<div class="modal-dialog" role="document">
+	<div class="modal-content">
+	
+	<div class="subscription-modal__info">
+	<div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal">
+	<span aria-hidden="true">&times;</span>
+	</button> <h4 class="modal-title">
+	Promoción especial para clientes
+	</h4>
+	</div>
+	<div class="modal-body">
+	
+	<div class="product">
+	<div class="product__row">
+	<div class="product__cell product__flower text-center">
+	<i class="icon icon__flower-star">
+	<img src="/img/icons/flower-star.svg" width="32"/>
+
+	</i>
+	</div>
+	<h4 class="product__cell">
+	Sitio web
+	<br/><span>50% de descuento por ser cliente de Doctoralia</span>
+	</h4>
+	<div class="product__price text-right product__cell">
+	<span class="old">900 MXN</span><br/>
+	450 MXN
+	<span> mensualmente</span>
+	<div>
+	<span>
+	(450 MXN + IVA a partir del tercer mes)
+	</span>
+	</div>
+	</div>
+	</div>
+	</div>
+	
+	
+	<button type="submit" class="btn btn-success btn-lg" data-go-to="domain">Siguiente</button>
+	</div>
+	</div>
+	
+	<div class="subscription-modal__domain">
+	<div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal">
+	<span aria-hidden="true">&times;</span>
+	</button> <h4 class="modal-title">Elegir dominio</h4>
+	</div>
+	<div class="modal-body">
+	<form data-id="domains-form" data-allowed-domains="[&quot;com&quot;,&quot;com.mx&quot;]">
+	<p>Elige un nombre para tu nueva página web o usa un dominio que ya poseas:</p>
+	
+	<ul class="list-unstyled" data-id="domains-list" data-proposed-template='<li class="subscription-modal__domain-list" data-id="proposed-domain"><label class="radio"><input type="radio" name="domain" value="__PROPOSED_DOMAIN__"/> www.__PROPOSED_DOMAIN__</label></li>'>
+	
+	<li class="subscription-modal__domain-list" data-id="another-domain">
+	<label class="radio">
+	<input type="radio" name="domain" value=""/> Otro dominio (crea tu propio dominio)
+	<div class="form-inline">
+	<div class="form-group">
+	<input type="text" placeholder="Escribir nombre" class="form-control input-sm" style="width: 200px" data-id="another-domain-inp"/>
+	</div>
+	<button class="btn btn-default btn-sm check-availability" data-id="check-availability" disabled="disabled">Comprobar disponibilidad</button>
+	</div>
+	</label>
+	</li>
+	
+	<li class="subscription-modal__domain-list" data-id="custom-domain">
+	<label class="radio">
+	<input type="radio" name="domain" value=""/> Dominio personalizado (ya tengo un dominio propio)
+	<div class="hide">
+	<div class="form-inline">
+	<div class="form-group">
+	<input type="text" placeholder="Escribir nombre" class="form-control input-sm" style="width: 200px" data-id="custom-domain-inp"/>
+	</div>
+	</div>
+	
+	<p class="subscription-modal__domain-list__custom-domain-info">Considere que usted continuará pagando el costo del dominio con su proveedor.</p>
+	</div>
+	</label>
+	</li>
+	</ul>
+	
+	<button type="submit" class="btn btn-success btn-lg" data-go-to="confirm">Siguiente</button>
+	</form>
+	</div>
+	</div>
+	
+	<div class="subscription-modal__confirm">
+	<div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal">
+	<span aria-hidden="true">&times;</span>
+	</button> <h4 class="modal-title">Publicación de una nuevo sitio web</h4>
+	</div>
+	<form data-id="confirm-form">
+	<div class="modal-body">
+	<p>
+	Comprueba si el nombre de tu nueva página web es correcto:
+	</p>
+	
+	<p class="highlight text-center" data-id="domain-to-confirm"></p>
+	<p class="hide-on-custom-domain">
+	Comprarás <strong>el dominio seleccionado</strong> haciendo clic en confirmar. Se te cobrará si decides cambiar el nombre de tu dominio más adelante.
+	</p>
+	
+	<p>
+	El coste mensual de 450 MXN al mes se añadirá al <strong> método actual de pago.</strong>
+	</p>
+	
+	<p class="text-center">
+	<label class="checkbox accept-terms">
+	<input type="checkbox" data-id="accept-terms" required/>
+	Acepto las condiciones
+	</label>
+	</p>
+	
+	<div class="text-center buttons" data-id="confirm-buttons">
+	<button type="button" class="btn btn-default btn-lg" data-go-to="domain">Anterior</button>
+	<button type="submit" class="btn btn-success btn-lg" data-id="confirm-subscription">Confirmar</button>
+	</div>
+	<div class="text-center notifications" data-id="confirm-notifications"></div>
+	</div>
+	</form>
+	</div>
+	
+	<div class="subscription-modal__success">
+	<div class="modal-header text-center">
+	<button type="button" class="close" data-dismiss="modal">
+	<span aria-hidden="true">&times;</span>
+	</button> <h4 class="modal-title">
+	<i class="icon icon__verified">
+	<img src="/img/icons/verified.svg" width="16"/>
+
+	</i>
+	Hemos puesto en marcha tu sitio web
+	</h4>
+	</div>
+	<div class="modal-body text-center success-message" data-id="success-message">
+	<p>
+	Puede tardar unos cuantos minutos <sup>*</sup> antes de que esté visible en internet.
+	</p>
+	
+	<p>
+	<a href="#" class="btn btn-success btn-lg" data-dismiss="modal">Cerrar</a>
+
+	</p>
+	
+	<p class="subscription-modal__success__dns-hint">
+	<sup>*</sup> Si comienzas con el sitio web bajo tu dominio, este se mostrará tras redirigir correctamente los registros DNS del operador del dominio. Si necesitas más información echa un vistazo al correo electrónico que te hemos enviado. 
+	</p>
+	</div>
+	</div>
+	
+	<div class="modal-footer">
+	<p class="pull-left">
+	
+	<a href="https://www.doctoralia.com.mx/terminos-y-condiciones" target="_blank">Términos y condiciones</a> |
+	
+	¿Tiene alguna duda? Contáctenos Contáctanos
+	</p>
+	
+	<span class="email pull-right">
+	<i class="icon icon__mail">
+	<img src="/img/icons/mail.svg" width="16"/>
+
+	</i>
+	<a href="mailto:websites@docplanner.com">websites@docplanner.com</a>
+
+	</span>
+	</div> </div>
+	</div>
+	</div>
+	
+	<div class="modal fade faq-modal" id="faq-modal" data-id="faq-modal" tabindex="-1" role="dialog">
+	<div class="modal-dialog modal-lg" role="document">
+	<div class="modal-content">
+	
+	<div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal">
+	<span aria-hidden="true">&times;</span>
+	</button>
+	<h4 class="modal-title">
+	Preguntas sobre el servicio
+	</h4>
+	</div>
+	<div class="modal-body">
+	
+	
+	
+	
+	
+	<div class="panel-group" id="faq-accordion" role="tablist" aria-multiselectable="true">
+	
+	<div class="panel panel-default">
+	<div class="panel-heading" role="tab" id="heading-1">
+	<h4 class="panel-title">
+	<a role="button" data-toggle="collapse" data-parent="#faq-accordion" href="#collapse-1" aria-expanded="true" aria-controls="collapseOne">
+
+	¿Cómo puedo actualizar el contenido de mi sitio web?
+	</a>
+	</h4>
+	</div>
+	<div id="collapse-1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="1">
+	<div class="panel-body">
+	<p><strong>Los contenidos del sitio web son los mismos que en tu perfil de doctoralia.com.mx </strong>, por tanto, si quieres editar tu foto (o cualquier otro aspecto), lo único que tienes que hacer es <strong> actualizar directamente tu perfil de doctoralia.com.mx.</strong> Una vez esté actualizado ahí, los cambios se reflejarán también en el sitio web a los pocos minutos.<br/><br/>Esta posibilidad hace más fácil actualizar el contenido de tu sitio web ya <strong> que no depende de terceros </strong> y puedes hacer actualizaciones en el momento que desees.</p>
+	</div>
+	</div>
+	</div>
+	
+	<div class="panel panel-default">
+	<div class="panel-heading" role="tab" id="heading-2">
+	<h4 class="panel-title">
+	<a role="button" data-toggle="collapse" data-parent="#faq-accordion" href="#collapse-2" aria-expanded="true" aria-controls="collapseOne">
+
+	¿Puedo tener mi propia dirección web (por ejemplo: www.tunombre.com)?
+	</a>
+	</h4>
+	</div>
+	<div id="collapse-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="2">
+	<div class="panel-body">
+	<p>¡Por supuesto! <strong> La dirección de tu sitio web está incluida en el precio. </strong>Puedes decantarte por el nombre de dominio que prefieras (siempre y cuando no se haya utilizado aún).</p>
+	</div>
+	</div>
+	</div>
+	
+	<div class="panel panel-default">
+	<div class="panel-heading" role="tab" id="heading-3">
+	<h4 class="panel-title">
+	<a role="button" data-toggle="collapse" data-parent="#faq-accordion" href="#collapse-3" aria-expanded="true" aria-controls="collapseOne">
+
+	¿Cuánto me costará el nuevo sitio web?
+	</a>
+	</h4>
+	</div>
+	<div id="collapse-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="3">
+	<div class="panel-body">
+	<p>Puedes empezar a disfrutar de tu nuevo sitio web por un precio especial para clientes de <strong>solo 450 MXN al mes</strong>. Además, este servicio <strong> no obliga a un plazo mínimo de uso.</strong></p>
+	</div>
+	</div>
+	</div>
+	
+	<div class="panel panel-default">
+	<div class="panel-heading" role="tab" id="heading-4">
+	<h4 class="panel-title">
+	<a role="button" data-toggle="collapse" data-parent="#faq-accordion" href="#collapse-4" aria-expanded="true" aria-controls="collapseOne">
+
+	¿Mi sitio web se verá bien en teléfonos móviles y tabletas?
+	</a>
+	</h4>
+	</div>
+	<div id="collapse-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="4">
+	<div class="panel-body">
+	<p>¡Quedará genial! <strong> Todos los diseños que puedes elegir están optimizados para teléfonos móviles y tabletas</strong>, de este modo tu sitio web se verá bien y funcionará correctamente siempre (independientemente del dispositivo que usen los pacientes).</p>
+	</div>
+	</div>
+	</div>
+	
+	<div class="panel panel-default">
+	<div class="panel-heading" role="tab" id="heading-5">
+	<h4 class="panel-title">
+	<a role="button" data-toggle="collapse" data-parent="#faq-accordion" href="#collapse-5" aria-expanded="true" aria-controls="collapseOne">
+
+	¿Estará mi sitio web optimizado para Google?
+	</a>
+	</h4>
+	</div>
+	<div id="collapse-5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="5">
+	<div class="panel-body">
+	<p>Hemos construido tu nuevo sitio web profesional teniendo en cuenta las <strong> mejores prácticas (SEO)</strong> de modo que tu sitio web esté perfectamente optimizado para<strong> Google y otros motores de búsqueda.</strong></p>
+	</div>
+	</div>
+	</div>
+	
+	<div class="panel panel-default">
+	<div class="panel-heading" role="tab" id="heading-6">
+	<h4 class="panel-title">
+	<a role="button" data-toggle="collapse" data-parent="#faq-accordion" href="#collapse-6" aria-expanded="true" aria-controls="collapseOne">
+
+	Me gustaría añadir más secciones a la web. ¿Puedo?
+	</a>
+	</h4>
+	</div>
+	<div id="collapse-6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="6">
+	<div class="panel-body">
+	<p>¡Estamos encantados de escuchar tus sugerencias para mejorar el servicio! Por otro lado, ten en cuenta que <strong> trabajamos de forma constante para mejorar tu sitio web con nuevas opciones, diseños y funciones libres de cobro</strong>.</p>
+	</div>
+	</div>
+	</div>
+	
+	<div class="panel panel-default">
+	<div class="panel-heading" role="tab" id="heading-7">
+	<h4 class="panel-title">
+	<a role="button" data-toggle="collapse" data-parent="#faq-accordion" href="#collapse-7" aria-expanded="true" aria-controls="collapseOne">
+
+	¿Recibiré asistencias técnica en caso de necesitarla?
+	</a>
+	</h4>
+	</div>
+	<div id="collapse-7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="7">
+	<div class="panel-body">
+	<p>¡Por supuesto! Si tienes alguna pregunta o si necesitas <strong>asistencia a la hora de configurar o gestionar tu nuevo sitio web</strong> puedes escribir a nuestro Departamento de Asistencia enviando un correo electrónico a websites@docplanner.com. ¡Estaremos más que encantados de ayudarte en cualquier cosa que necesites!</p>
+	</div>
+	</div>
+	</div>
+	
+	</div>
+	</div>
+	
+	<div class="modal-footer">
+	<p class="pull-left">
+	
+	<a href="https://www.doctoralia.com.mx/terminos-y-condiciones" target="_blank">Términos y condiciones</a> |
+	
+	¿Tiene alguna duda? Contáctenos Contáctanos
+	</p>
+	
+	<span class="email pull-right">
+	<i class="icon icon__mail">
+	<img src="/img/icons/mail.svg" width="16"/>
+
+	</i>
+	<a href="mailto:websites@docplanner.com">websites@docplanner.com</a>
+
+	</span>
+	</div>
+	</div>
+	</div>
+	</div>
+	
+	<div class="modal fade intro-modal" id="intro-modal" data-id="intro-modal" tabindex="-1" role="dialog">
+	<div class="modal-dialog modal-lg" role="document">
+	<div class="modal-content">
+	
+	<div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal">
+	<span aria-hidden="true">&times;</span>
+	</button>
+	<h4 class="modal-title text-center">
+	Un sitio web creado por expertos en salud digital
+	</h4>
+	</div>
+	<div class="modal-body text-center">
+	Con un <strong>sorprendente diseño</strong> que se adapta perfectamente a ordenadores, tabletas y teléfonos móviles.
+	
+	
+	
+	<div class="row">
+	<div class="col-md-4 intro-modal__column">
+	<i class="icon icon__doctor hidden-xs hidden-sm">
+	<img src="/img/icons/doctor.svg"/>
+
+	</i>
+	<h5>FÁCIL</h5>
+	<p>¡Tu sitio web está listo! Y se <strong>actualiza con información</strong> de tu perfil de doctoralia.com.mx</p>
+	</div>
+	<div class="col-md-4 intro-modal__column">
+	<i class="icon icon__tablet hidden-xs hidden-sm">
+	<img src="/img/icons/tablet.svg"/>
+
+	</i>
+	<h5>MUCHAS PLANTILLAS</h5>
+	<p>Hemos creado un sitio web <strong>profesional y atractivo con la información de tu perfil</strong> y que puedes editar a través de las múltiples plantillas disponibles.</p>
+	</div>
+	<div class="col-md-4 intro-modal__column">
+	<i class="icon icon__verified hidden-xs hidden-sm">
+	<img src="/img/icons/verified.svg"/>
+
+	</i>
+	<h5>A BUEN PRECIO</h5>
+	<p>Consíguelo ahora por solo 450 MXN (precio exclusivo para clientes)</p>
+	</div>
+	</div>
+	
+	<a href="#" data-dismiss="modal" class="btn btn-success btn-lg">SIGUIENTE</a>
+
+	</div>
+	
+	</div>
+	</div>
+	</div>
+	
+	<div class="modal fade ecommerce-launch-modal" id="ecommerce-launch-modal" data-id="ecommerce-launch-modal"
+	tabindex="-1" role="dialog">
+	<div class="modal-dialog modal-md" role="document">
+	<div class="modal-content">
+	<div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal">
+	<span aria-hidden="true">&times;</span>
+	</button>
+	<h4 class="modal-title">
+	Elija el método de pago
+	</h4>
+	</div>
+	<div class="modal-body">
+	<ul class="pills">
+	</ul>
+	
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	
+	<script>
+	var DPWebsitesApp = {
+	Const: {
+	SITENAME: 'doctoralia.com.mx',
+	WEBSITE_TEMPLATE_ID: '',
+	CURRENT_ROUTE: 'editor',
+	WEBSITE_ASSETS_ROUTE: '',
+	URL_TO_PREVIEW: '/preview',
+	REQUIRE_TERMS_ACCEPT: true },
+	Lang: {
+	'domain_available' : 'Dominio disponible',
+	'domain_unavailable' : 'Dominio no disponible',
+	'checking' : 'Comprobando',
+	'checking_domains' : 'Estamos buscando direcciones de sitios web disponibles...',
+	'error_try' : 'Se ha producido un error, inténtalo de nuevo.',
+	'website_buying_process_step_1' : 'Estamos comprando un dominio',
+	'website_buying_process_step_2' : 'Estamos configurando el sitio web',
+	'website_buying_process_step_3' : 'Estamos subiendo archivos',
+	'website_buying_process_step_4' : 'Estamos preparando el sitio web para su publicación en internet',
+	'website_buying_process_headline' : 'Estamos trabajando en tu sitio web. En este momento:',
+	'update_in_progress' : 'Actualizando...',
+	'update' : 'Actualizar',
+	'error' : 'Error',
+	'forward' : 'Siguiente',
+	'common_step_backward' : 'Anterior',
+	'lets_start' : '¡Comencemos!',
+	'websites_tour_step_1' : 'Elija la plantilla y el esquema de color adecuados',
+	'websites_tour_step_2' : 'Actualice la información del sitio web editando su perfil en %{sitename}',
+	'websites_tour_step_3' : '¡Elija el dominio y publique su sitio web en Internet!',
+	'refreshing' : 'Refrescando...',
+	'check_availability' : 'Comprobar disponibilidad',
+	'not_a_client_error' : 'El servicio está disponible solo para los titulares de un perfil en % {sitename}',
+	}
+	}
+	</script>
+	<script>
+	window.SET_DOMAIN_ON_STARTUP = false;
+	DPWebsitesApp.Const.IS_COMMERCIAL = true;
+	</script>
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.11.0/js/bootstrap-tour.js"></script>
+
+	<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+	
+	<!-- JS shared between templates -->
+	<script src="/js/app.js?v=99884d47dce5acf9dfb3acc99ffcd081"></script>
+
+	</body>
+	</html>
